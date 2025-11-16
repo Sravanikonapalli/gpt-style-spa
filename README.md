@@ -16,10 +16,10 @@ Includes collapsible sidebar, theme toggle, structured table responses, and feed
 - Collapsible sidebar
 - Light/Dark theme toggle
 - Chat window with:
- - User messages
- - Assistant text reply
- - Table responses
- - Like / Dislike buttons
+    - User messages
+    - Assistant text reply
+    - Table responses
+    - Like / Dislike buttons
 - Auto-scroll chat
 - Separate CSS for every component
 - Only async/await
