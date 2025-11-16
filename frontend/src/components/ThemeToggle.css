@@ -1,0 +1,17 @@
+
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.theme-toggle input {
+  width: 16px;
+  height: 16px;
+}
+
+.toggle-label {
+  font-size: 13px;
+  color: var(--muted);
+}

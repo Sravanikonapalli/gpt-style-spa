@@ -1,0 +1,24 @@
+.table-wrap {
+  margin-top: 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: auto;
+  max-width: 720px;
+}
+
+.response-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.response-table th,
+.response-table td {
+  padding: 8px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  font-size: 13px;
+}
+
+.response-table thead {
+  background: rgba(0,0,0,0.03);
+}

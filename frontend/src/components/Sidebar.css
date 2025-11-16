@@ -1,0 +1,97 @@
+
+.sidebar {
+  width: 260px;
+  background: var(--panel);
+  padding: 16px;
+  border-right: 1px solid var(--border);
+  overflow: auto;
+  position: relative;
+  transition: width 200ms ease;
+}
+
+/* Collapsed */
+.sidebar.collapsed {
+  width: 60px;
+  padding: 16px 6px;
+}
+
+.collapse-btn {
+  position: absolute;
+  top: 10px;
+  right: -14px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar-title {
+  margin: 0;
+  font-size: 16px;
+}
+
+.session-list {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.no-sessions {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.session-item {
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 150ms ease;
+}
+
+.session-item:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+.session-title {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.session-id {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+/* Collapsed mode icons */
+.collapsed-icons {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.icon-new {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  background: var(--accent);
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

@@ -1,0 +1,43 @@
+
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat-area {
+  flex: 1;
+  padding: 16px;
+  overflow: auto;
+}
+
+.no-session {
+  padding: 20px;
+  font-size: 14px;
+}
+
+.message {
+  max-width: 720px;
+  margin-bottom: 12px;
+}
+
+.message.user {
+  text-align: right;
+}
+
+.bubble {
+  display: inline-block;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: rgba(0,0,0,0.04);
+}
+
+.message.user .bubble {
+  background: var(--accent);
+  color: white;
+}
+
+.chat-footer {
+  padding: 12px;
+  border-top: 1px solid var(--border);
+}

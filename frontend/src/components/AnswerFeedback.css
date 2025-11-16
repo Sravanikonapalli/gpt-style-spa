@@ -1,0 +1,35 @@
+.feedback-wrap {
+  margin-top: 8px;
+  display: flex;
+  gap: 8px;
+}
+
+.feedback-btn.like {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+
+  background-color: #e0f4e0;      
+  border: 1px solid #70c470;      
+  color: #297829;                 
+}
+
+.feedback-btn.like:hover {
+  background-color: #c3e9c3;
+}
+
+.feedback-btn.dislike {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+
+  background-color: #f8dada;      
+  border: 1px solid #d66b6b;      
+  color: #a63232;                
+}
+
+.feedback-btn.dislike:hover {
+  background-color: #f3c3c3;
+}
